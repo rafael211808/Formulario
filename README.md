@@ -49,3 +49,7 @@ Formulário/
     ├── form_sign_up.js    # Lógica de registro de novos usuários
     ├── main_page.js       # Lógica de exibição de dados do usuário logado
     └── users.js           # Funções utilitárias e gerenciamento de armazenamento
+```
+
+## ⚠️ Nota de Segurança
+* **Aviso:** Este projeto utiliza a função nativa btoa() apenas para uma codificação básica de senha para fins educacionais e de estudo. Em aplicações reais de produção, utilize bibliotecas de criptografia robustas (como bcrypt) e um backend seguro.
