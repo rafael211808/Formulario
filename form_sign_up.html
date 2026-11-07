@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Criar Conta</title>
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/formulario.css">
+  </head>
+  <body>
+    <header class="header"></header>
+    <main>
+      <form class="form">
+        <div class="inputs-container">
+          <div class="input-container">
+            <input class="js-name-input" placeholder="Nome" type="text">
+          </div>
+          <div class="input-container">
+            <input class="js-username-input" placeholder="Nome de Usuário" type="text">
+          </div>
+          <div class="input-container">
+            <input class="js-email-input" placeholder="E-mail" type="email">
+          </div>
+          <div class="input-container">
+            <input class="js-password-input" placeholder="Senha" type="password">
+          </div>
+          <div class="input-container">
+            <input class="js-confirmation-input" placeholder="Confirmar Senha" type="password">
+          </div>
+          <div class="error-message-container js-error-message-container"></div>
+          <div class="submit-button-container">
+            <button type="submit" class="submit-button js-submit-button">
+              Criar Conta
+            </button>
+          </div>
+        </div>
+        <div class="message-container">
+          <p class="message">
+            Já tem uma conta? <a href="form_log_in.html" class="link">Entrar</a>
+          </p>
+        </div>
+      </form>
+    </main>
+
+    <script type="module" src="scripts/form_sign_up.js"></script>
+  </body>
+</html>

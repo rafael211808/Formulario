@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/formulario.css">
+  </head>
+  <body style="
+    margin-top: 192px;
+  ">
+    <header class="header"></header>
+    <main>
+      <form class="form">
+        <div class="inputs-container">
+          <div class="input-container">
+            <input class="js-username-email-input" placeholder="Nome de Usuário/E-mail" type="text">
+          </div>
+          <div class="input-container">
+            <input class="js-password-input" placeholder="Senha" type="password">
+          </div>
+          <div class="error-message-container js-error-message-container"></div>
+          <div class="submit-button-container">
+            <button type="submit" class="submit-button js-submit-button">
+              Entrar
+            </button>
+          </div>
+        </div>
+        <div class="message-container">
+          <p class="message">
+            Não tem uma conta? <a href="form_sign_up.html" class="link">Criar Conta</a>
+          </p>
+        </div>
+      </form>
+    </main>
+    <script type="module" src="scripts/form_log_in.js"></script>
+  </body>
+</html>
